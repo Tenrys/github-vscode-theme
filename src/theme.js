@@ -277,7 +277,7 @@ function getTheme({ theme, name }) {
       "symbolIcon.typeParameterForeground": lightDark( scale.blue[8], scale.blue[2]),
       "symbolIcon.unitForeground": lightDark( scale.blue[6], scale.blue[3]),
       "symbolIcon.variableForeground": lightDark( scale.orange[6], scale.orange[3]),
-      "symbolIcon.constantForeground": lightDark( scale.green[6], scale.green),
+      "symbolIcon.constantForeground": lightDark( scale.green[6], scale.green[3]),
 
       "terminal.foreground": color.fg.default,
       'terminal.ansiBlack': color.ansi.black,
@@ -390,7 +390,6 @@ function getTheme({ theme, name }) {
       {
         "scope": [
           "entity.name.tag",
-          "support.class.component"
         ],
         settings: {
           foreground: lightDark(scale.green[6], scale.green[1])
